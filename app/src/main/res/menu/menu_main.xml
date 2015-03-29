@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <!--Set four items on action bar in order to link to other activities-->
+    <item android:id="@+id/Info"
+        android:title="Info"
+        android:orderInCategory="101"
+
+        app:showAsAction="always"/>
+    <item android:id="@+id/Menu"
+        android:title="Menu"
+        android:orderInCategory="102"
+
+        app:showAsAction="always"/>
+    <item android:id="@+id/Login"
+        android:title="Login"
+        android:orderInCategory="103"
+
+        app:showAsAction="always"/>
+
+
+
+
+</menu>
